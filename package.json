@@ -1,0 +1,10 @@
+{
+  "name": "pi-exit",
+  "version": "1.0.0",
+  "description": "Adds an /exit command as an alias for Pi's built-in /quit command",
+  "license": "MIT",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions/exit.ts"]
+  }
+}
